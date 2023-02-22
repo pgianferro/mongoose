@@ -1,0 +1,49 @@
+3 main concepts
+Schema: stracture of your data looks like
+Model: that schema in a form that you can use
+Query: a query your a making against the Mongo database
+
+Concepts
+
+Schemas (User)
+Create User
+Create User V2
+Update User
+More fields to User Schema
+Address Schema embedded in User Schema 
+
+try catch to show errors due to type validations
+
+More validations:
+required
+lowercase
+default
+date.now
+immutable
+min and max
+minlength
+custom validations
+
+Queries:
+FindById
+Find
+FindOne: first match only
+Exists: true or false
+Delete One
+Our own queries (equals, and, limit, select)
+
+Change Schema to reference bestFriend field to User schema
+Update one document with bestFriend
+Populate to make joins
+
+Functions in Schemas
+.Methods
+.Statics
+.Query
+.Virtual not printing on db only to show 
+
+Middlewares
+pre
+post
+
+password: lSeqKDH2waYq7vm2
